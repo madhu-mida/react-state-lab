@@ -29,7 +29,8 @@ const MatchingCards = () => {
     }
 
     return (
-        <div>
+        <div className="matching-cards">
+            <h3>MatchingCards</h3>
             {cardsArr.map((element, index) => {
                 return (
                     <img src={selectedCards.includes(index) ? element.cardImage : defaultImageUrl} alt={element.rank}
