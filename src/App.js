@@ -5,6 +5,7 @@ import './styles.css';
 // IMPORT imageData.js AND STORE IT IN A VARIABLE CALLED imagesArr
 import imagesArr from "./imageData"
 import TrafficLight from './TrafficLight';
+import MatchingCards from './MatchingCards';
 
 export default function App() {
   // USE useState TO CREATE  [bigImage, setBigImage] 
@@ -42,6 +43,7 @@ export default function App() {
       </div>
 
       <TrafficLight />
+      <MatchingCards />
     </div>
   );
 }
